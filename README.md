@@ -9,3 +9,9 @@
 ![Sklearn version](https://img.shields.io/badge/sklearn-1.6-blue.svg)
 
 # LinkedIn's Zip Puzzle Solver
+
+<p align="center">
+| <img src="assets/original.png" width=20% /> | <img src="assets/check_parse.png" width=20% /> | <img src="assets/solution_b.png" width=20% /> |
+| --- | --- | --- |
+| Original image | Finding grid elements | Solution |
+</p>
