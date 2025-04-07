@@ -10,8 +10,6 @@
 
 # LinkedIn's Zip Puzzle Solver
 
-| <img src="assets/original.png" align="middle"/> | <img src="assets/th_50_dilate_5.png" align="middle"/> | <img src="assets/crop.png" align="middle"/> |  
-| :---: | :---: | :---: | 
-| Original image | Highlight grid lines | Crop grid region | 
-| <img src="assets/th_100.png" align="middle"/> | <img src="assets/check_parse.png" align="middle"/> | <img src="assets/solution_b.png" align="middle"/> |  
-| Highlight grid elements | Detect grid elements | Solution | 
+| <img src="assets/original.png" align="middle"/> | <img src="assets/crop.png" align="middle"/> |  <img src="assets/check_parse.png" align="middle"/> | <img src="assets/solution_b.png" align="middle"/> |  
+| :---: | :---: | :---: | :---: | 
+| Original image | Detect and crop grid | Detect puzzle elements | Solution | 
