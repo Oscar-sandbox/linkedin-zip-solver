@@ -10,8 +10,8 @@
 
 # LinkedIn's Zip Puzzle Solver
 
-<p align="center">
-<img src="assets/original.png" width=20% /> | <img src="assets/check_parse.png" width=20% /> | <img src="assets/solution_b.png" width=20% /> 
-:---: | :---: | :---: 
-Original image | Finding grid elements | Solution 
+<p float="left">
+  <img src="assets/original.png" width=20% align="middle"/>
+  <img src="assets/check_parse.png" width=20% align="middle"/> 
+  <img src="assets/solution_b.png" width=20% align="middle"/>
 </p>
