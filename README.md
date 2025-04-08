@@ -10,7 +10,7 @@
 
 # LinkedIn's Zip Puzzle Solver
 
-## About the puzzle 
+## About the Puzzle 
 This project provides an algorithm for solving LinkedIn's Zip puzzle game automatically. The puzzle is a visual logic game 
 where you need to plot a path through a grid while visiting numbered checkpoints in order. 
 A tutorial on how to play can be found [here](https://www.linkedin.com/games/zip/). 
