@@ -30,7 +30,7 @@ Below is shown the preprocessing for a test example.
 <img src="assets/graph.png" width=25% align="right" />
 Second, a solution is found from the parsed puzzle elements. Here, a backtracking algorithm is used to search for possible paths that traverse the grid. To accept or reject 
 candidate paths, the algorithm is aided by a graph data structure. The graph's vertices are given by the unvisited cells in the grid, and its edges by neighboring cells 
-with no wall between them. A path is rejected whenever the degree of a vertex is less than 2 (except possibly the current vertex or the final checkpoint), or when the graph is disconnected. 
+with no wall between them. A path is rejected [zip_parser.py](src/zip_parser.py). whenever the degree of a vertex is less than 2 (except possibly the current vertex or the final checkpoint), or when the graph is disconnected. 
 More details can be found in [zip_solver.py](src/zip_solver.py). 
 
 <br clear="right">
