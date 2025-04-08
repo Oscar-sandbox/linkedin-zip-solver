@@ -31,7 +31,7 @@ candidate paths, the algorithm is aided by a graph data structure, exemplified b
 with no wall between them. A path is rejected whenever the degree of a vertex is less than 2 (except possibly the current vertex or the final checkpoint), or when the graph is disconnected. 
 
 <p align="center">
-  <img src="assets/graph.png" width=60% />
+  <img src="assets/graph.png" width=30% />
 </p>
 
 ## Results
