@@ -30,9 +30,11 @@ Second, a solution is found from the parsed puzzle elements. Here, a backtrackin
 candidate paths, the algorithm is aided by a graph data structure, exemplified below. This graph's vertices are given by the unvisited cells in the grid, and its edges are given by neighboring cells 
 with no wall between them. A path is rejected whenever the degree of a vertex is less than 2 (except possibly the current vertex or the final checkpoint), or when the graph is disconnected. 
 
-<p align="center">
+<p align="right">
   <img src="assets/graph.png" width=30% />
 </p>
+
+
 
 ## Results
 The solver was tested on 20 puzzles, ranging from puzzle No. 01 to 20. The mean solve time was 0.14s, while the maximum was 1.22s. Full results, with images, are available at [examples](examples). 
