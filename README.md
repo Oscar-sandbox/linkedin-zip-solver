@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/portada.png" width=100% />
+<img src="assets/portada.png" width=100% />
 </p>
 
 ![License](https://img.shields.io/github/license/Oscar-sandbox/linkedin-zip-solver)
@@ -27,7 +27,7 @@ Below is shown the preprocessing for a test example.
 
 ## Backtracking and Graph Theory
 
-<img src="assets/graph.png" width=20% align="right" />
+<img src="assets/graph.png" width=25% align="right" />
 Second, a solution is found from the parsed puzzle elements. Here, a backtracking algorithm is used to search for possible paths that traverse the grid. To accept or reject 
 candidate paths, the algorithm is aided by a graph data structure. This graph's vertices are given by the unvisited cells in the grid, and its edges are given by neighboring cells 
 with no wall between them. A path is rejected whenever the degree of a vertex is less than 2 (except possibly the current vertex or the final checkpoint), or when the graph is disconnected. 
@@ -35,3 +35,7 @@ with no wall between them. A path is rejected whenever the degree of a vertex is
 
 ## Results
 The solver was tested on 20 puzzles, ranging from puzzle No. 01 to 20. The mean solve time was 0.14s, while the maximum was 1.22s. Full results, with images, are available at [examples](examples). 
+
+<p align="center">
+<img src="assets/examples.png" width=100% />
+</p>
