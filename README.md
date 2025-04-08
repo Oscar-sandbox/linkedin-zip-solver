@@ -25,8 +25,8 @@ Below is shown the preprocessing for a test example.
 | :---: | :---: | :---: | :---: | 
 | Original image | Detect and crop grid | Detect puzzle elements | Solution | 
 
-<p>
 ## Backtracking and Graph Theory
+<p>
 <img src="assets/graph.png" width=25% align="right" />
 Second, a solution is found from the parsed puzzle elements. Here, a backtracking strategy is used to search for possible paths that traverse the grid. To accept or reject 
 candidate paths, the algorithm is aided by a graph data structure, exemplified below. This graph's vertices are given by the unvisited cells in the grid, and its edges are given by neighboring cells 
